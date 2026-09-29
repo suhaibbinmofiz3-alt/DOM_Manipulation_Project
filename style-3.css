@@ -1,46 +1,45 @@
-.students{
-  background:white;
-  margin-top:35px;
-  padding:30px;
-  border-radius:15px;
-  box-shadow:0 3px 12px #ddd
-}
 
-.head{
-  display:flex;
-  justify-content:space-between;
-  align-items:center
-}
+.students{ 
+    background:white; 
+    margin-top:35px; 
+    padding:30px; 
+    border-radius:15px; 
+    box-shadow:0 3px 12px #ddd; 
+} 
 
-.search{
-  width:270px;
-  margin-right:10px
-}
+.head{ 
+    display:flex; 
+    justify-content:space-between;
+    align-items:center
+} 
+
+.search{ 
+    width:270px; 
+    margin-right:10px; 
+} 
 
 .head button{
-  background:#f1f2f6;
-  color:#555;
-  margin:0 2px;
-  padding:14px
+    background:#f1f2f6; 
+    color:#555; 
+    margin:0 2px; 
+    padding:14px; 
+} 
+
+.empty{ 
+   margin-top:25px; 
+   padding:40px; 
+   text-align:center; 
+   border:2px dashed #ddd;
+   border-radius:15px; 
+} 
+
+.empty p{color:#888} 
+
+footer{ 
+    text-align:center; 
+    padding:30px; 
+    color:#888
 }
-
-.empty{
-  margin-top:25px;
-  padding:40px;
-  text-align:center;
-  border:2px dashed #ddd;
-  border-radius:15px
-}
-
-.empty p{color:#888}
-
-footer{
-  text-align:center;
-  padding:30px;
-  color:#888
-}
-
-
 
 
 
