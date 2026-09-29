@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Dashboard</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial;background:#f4f5f9;color:#263445}
+header{background:white;padding:30px 12%;position:relative}
+h1{margin:0 0 15px}
+p{color:#777}
+.dark{position:absolute;right:12%;top:25px;padding:12px 25px;border:1px solid #ddd;border-radius:10px;background:white}
+
+.container{width:77%;margin:35px auto}
+.top{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:white;padding:30px;border-radius:15px;box-shadow:0 3px 12px #ddd}
+.card:nth-child(1){border-left:5px solid #287be5}
+.card:nth-child(2){border-left:5px solid #20aa61}
+.card:nth-child(3){border-left:5px solid #b65d0b}
+.card small{color:#777}
+.card h2{margin-bottom:0}
+
+.form{background:white;margin-top:35px;padding:30px;border-radius:15px;box-shadow:0 3px 12px #ddd}
+.form h2{margin-top:0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+label{display:block;margin-bottom:8px;font-weight:bold}
+input,select{width:100%;padding:15px;border:0;border-radius:10px;background:#f1f2f6;font-size:16px}
+button{margin-top:20px;padding:14px 30px;border:0;border-radius:8px;background:#287be5;color:white}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Student Activity Dashboard</h1>
+<p>Use this dashboard to manage student activities: add students, search them, change their status, and remove them.</p>
+<button class="dark">🌙 Dark Mode</button>
+</header>
+
+<div class="container">
+
+<div class="top">
+<div class="card"><small>TOTAL STUDENTS</small><h2>0</h2></div>
+<div class="card"><small>ACTIVE STUDENTS</small><h2>0</h2></div>
+<div class="card"><small>INACTIVE STUDENTS</small><h2>0</h2></div>
+</div>
+
+<div class="form">
+<h2>Add a New Student</h2>
+
+<div class="grid">
+<div>
+<label>Student Name</label>
+<input placeholder="e.g. Suhaib Bin Mofiz">
+</div>
+
+<div>
+<label>Student ID</label>
+<input placeholder="e.g. CSE-3532">
+</div>
+
+<div>
+<label>Department</label>
+<input placeholder="e.g. CSE">
+</div>
+
+<div>
+<label>Status</label>
+<select>
+<option>Active</option>
+<option>Inactive</option>
+</select>
+</div>
+</div>
+
+<button>Add Student</button>
+</div>
+
+</div>
+</body>
+</html>
