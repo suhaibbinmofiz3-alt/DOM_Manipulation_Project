@@ -10,7 +10,7 @@ const container = document.querySelector(".container");
 let students = []; 
 
 form.addEventListener("submit", function(e) { 
-    e.preventDefault(); 
+    e.preventDefault();  
 
     const student = { 
         name: nameInput.value, 
