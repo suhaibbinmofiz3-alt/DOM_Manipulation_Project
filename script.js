@@ -5,7 +5,7 @@ const deptInput = document.querySelectorAll("input")[2];
 const statusInput = document.querySelector("select"); 
 const addBtn = document.querySelector(".form button"); 
 const darkBtn = document.querySelector(".dark"); 
-const container = document.querySelector(".container"); 
+const container = document.querySelector(".container");  
 
 let students = []; 
 
